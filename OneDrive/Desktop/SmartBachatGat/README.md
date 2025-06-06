@@ -80,35 +80,36 @@ Contains saved files and generated reports
 2. Make sure JDK 8 or later is installed.
 3. Compile all .java files:
 
-```bash
-javac src/*/.java
+
+javac src/model/*.java src/main/Main.java
 
 ---
 
 ## Run the application using:
-bash
-java src/main/Main.java
 
-Key Features
-	•	Register and manage members
-	•	Record monthly deposits
-	•	Distribute loans and calculate interest
-	•	Record repayments and update balances
-	•	Save and load data using text files
-	•	Simple report generation (savings, loans, repayments)
+java cp src main.Main.
 
----
+##  Key Features
 
-About Me
-
-I am a fresher and MCA student currently learning Java.
-This project is part of my hands-on practice to understand OOPs concepts, file handling, 
-and application structure.
+- Register and manage members  
+- Record monthly deposits  
+- Distribute loans and calculate interest  
+- Record repayments and update balances  
+- Save and load data using text files (savings, loans, repayments)  
+- Simple report generation (savings, loans, repayments)  
 
 ---
 
-Future Improvements
-	•	Add validations and error handling
-	•	Build a menu-based or GUI interface
-	•	Replace file storage with JSON or database (MySQL)
-	•	Generate detailed financial reports
+##  About Me
+
+I am a fresher and MCA student currently learning Java.  
+This project is part of my hands-on practice to understand *OOPs concepts, **file handling, and **application structure*.
+
+---
+
+##  Future Improvements
+
+- Add validations and error handling  
+- Build a menu-based or GUI interface  
+- Replace file storage with JSON or database (MySQL)  
+- Generate detailed financial reports
