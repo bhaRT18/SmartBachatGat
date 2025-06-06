@@ -5,6 +5,14 @@ It helps track monthly deposits, distribute and manage loans, record repayments,
 
 ---
 
+## Why I Built this Project
+
+In many villages and towns women form small saving groups where they contribute a fixed amount every month,
+ and sometimes takes loans from the group funds. Manging these records manully can be confusing and error-prone. 
+ I wanted to solve this problem using JAVA and in the process practice Object-Oriented Programming, file structure,
+ and coding discipline.
+
+ 
 ## Project Objective
 
 This project aims to:
