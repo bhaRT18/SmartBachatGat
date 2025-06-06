@@ -18,30 +18,31 @@ This project aims to:
 
 ## Project Structure
 
+<pre>
+## Project Structure
+
+
 SmartBachatGat/
 ├── README.md
-├── Data/                          ← To store saved files or reports
+├── Data/                    # To store saved files or reports
 ├── src/
-│   ├── model/                     ← Entity classes (data models)
+│   ├── model/               # Entity classes (data models)
 │   │   ├── Member.java
 │   │   ├── Deposit.java
 │   │   ├── Loan.java
 │   │   ├── Repayment.java
 │   │   └── BachatGat.java
-│   │
-│   ├── service/                   ← Business logic layer
+│   ├── service/             # Business logic layer
 │   │   ├── MemberService.java
 │   │   ├── LoanService.java
 │   │   └── ReportService.java
-│   │
-│   ├── util/                      ← Helper and utility functions
+│   ├── util/                # Helper and utility functions
 │   │   ├── FileHandler.java
 │   │   └── Utils.java
-│   │
-│   └── main/                      ← Entry point
+│   └── main/                # Entry point
 │       └── Main.java
 
-
+</pre>
 ---
 
 ## Package Descriptions
